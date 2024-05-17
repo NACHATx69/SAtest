@@ -11,3 +11,7 @@ git checkout -b dev/#0001-feature
 git add -u
 git commit -m "My feature is ready"
 git push origin dev/#0001-feature
+
+merge
+git checkout main
+git merge dev/#0001-feature
